@@ -1,0 +1,195 @@
+[
+  {
+    "code": "ghost-cannotenjoyfood",
+    "type": "mixed",
+    "attributes": {
+      "nutritionFactor": -0.6,
+      "saturationLossFactor": -0.97
+    }
+  },  
+  {
+    "code": "ghost-mind",
+    "type": "positive",
+    "attributes": {
+      "temporalStabilityOffset": 0.0025,
+      "temporalStabilityDropRate": -0.7
+    }
+  },
+  {
+    "code": "ghost-ghost-flight",
+    "type": "positive",
+    "attributes": {
+      "canGlide": 1,
+      "ww_flap_hunger": 10,
+      "ww_flight_hunger": 0.5,
+      "ww_can_fly": 1,
+      "ww_stall_speed": -2,
+      "ww_start_speed": -2,
+      "ww_flap_forward_acceleration": 0.44444,
+      "ww_flap_vertical_acceleration": 5,
+      "ww_top_speed": 50
+    }
+  },
+  {
+   "code": "ghost-cantfeel",
+   "type": "positive",
+   "attributes": {
+	"poisonDamageFactor": -10,
+	"frostDamageFactor": -0.95,
+	"fireDamageFactor": -0.95
+    }
+  },
+  {
+    "code": "ghost-spiritualbody",
+    "type": "positive",
+    "attributes": {
+      "maxhealthExtraPoints": -10,
+      "fallDamageThreshold": 0.75,
+      "gravityDamageFactor": -0.5,
+      "breathType": 1
+    }
+  },
+  {
+    "code": "ghost-sound",
+    "type": "positive",
+    "attributes": {
+      "animalSeekingRange": -0.9
+    }
+  },
+  {
+    "code": "ghost-sound2",
+    "type": "negative",
+    "attributes": {
+      "animalSeekingRange": 0.3
+    }
+  },
+  {
+    "code": "ghost-skinlikearmor",
+    "type": "positive",
+    "attributes": {
+      "damageReceivedFactor": -0.5
+    }
+  },
+  {
+    "code": "ghost-skinlikearmor2",
+    "type": "positive",
+    "attributes": {
+      "damageReceivedFactor": -0.4
+    }
+  },
+  {
+    "code": "ghost-eyes",
+    "type": "positive",
+    "attributes": {
+      "dv-maxBrightness": 0.4
+    }
+  },
+  {
+    "code": "ghost-wonderer",
+    "type": "positive",
+    "attributes": {
+      "sprintSpeed": 0.5,
+      "walkspeed": 0.5,
+      "armorWalkSpeedAffectedness": 1.0,
+      "gravityDamageFactor": -0.5,
+      "jumpHeightMul": 1.0,
+      "sneakSpeed": 0.3
+    }
+  },
+  {
+    "code": "ghost-wonderer2",
+    "type": "mixed",
+    "attributes": {
+      "sprintSpeed": 0.5,
+      "walkspeed": 0.5,
+      "armorWalkSpeedAffectedness": 1.0,
+      "sneakSpeed": 0.5
+    }
+  },
+  {
+    "code": "ghost-throw",
+    "type": "positive",
+    "attributes": {
+      "rangedWeaponsAcc": 1.0,
+      "bowDrawingStrength": 1.0,
+      "rangedWeaponsDamage": 1.0,
+      "rangedWeaponsSpeed": 1.0
+    }
+  },
+  {
+    "code": "ghost-mine",
+    "type": "positive",
+    "attributes": {
+      "lightWalkSpeed": -0.5,
+      "lightDamageFactor": -0.5,
+      "lightHealingFactor": -0.5,
+      "darknessWalkSpeed": 0.5,
+      "darknessDamageFactor": 0.5,
+      "darknessHealingFactor": 0.5,
+      "temporalStabilityOffset": 0.0016
+    }
+  },
+  {
+    "code": "ghost-angry",
+    "type": "mixed",
+    "attributes": {
+      "rangedWeaponsAcc": -0.6,
+      "sprintSpeed": 0.5,
+      "rangedWeaponsDamage": -0.6,
+      "meleeWeaponsDamage": 1.0
+    }
+  },
+  {
+    "code": "ghost-giftedhands",
+    "type": "positive",
+    "attributes": {
+      "wholeVesselLootChance": 0.5,
+      "forageDropRate": 2.0,
+      "oreDropRate": 2.0,
+      "rustyGearDropRate": 2.0,
+      "oreLootDropMul": 2.0,
+      "wildCropDropRate": 2.0,
+      "animalLootDropRate": 2.0,
+      "animalHarvestingTime": 0.6
+    }
+  },
+  {
+    "code": "ghost-giftedhands2",
+    "type": "mixed",
+    "attributes": {
+      "wholeVesselLootChance": 0.5,
+      "vesselContentsDropRate": 2.0,
+      "rustyGearDropRate": 2.0,
+      "miningSpeedMul": -0.5,
+      "animalHarvestingTime": 0.6
+    }
+  },
+  {
+    "code": "ghost-giftedhands3",
+    "type": "mixed",
+    "attributes": {
+      "wildCropDropRate": 2.0,
+      "forageDropRate": 2.0,
+      "animalLootDropRate": 2.0,
+      "animalHarvestingTime": 0.6
+    }
+  },
+  {
+    "code": "ghost-hungry",
+    "type": "negative",
+    "attributes": {
+      "hungerrate": -0.2,
+      "maxSaturationFactor": -0.2,
+      "nutritionFactor": -0.2,
+      "saturationLossFactor": 0.3
+    }
+  },
+  {
+    "code": "ghost-cantswim",
+    "type": "positive",
+    "attributes": {
+      "canSwim": -1,
+      "buoyancyFactor": -1
+    }
+  }
+]

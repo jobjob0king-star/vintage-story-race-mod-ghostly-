@@ -1,0 +1,17 @@
+{
+  "type": "content",
+  "name": "ghostly",
+  "version": "1.0",
+  "description": "Changes the player model to be a ghost thats inspired by the 7 deadly sins",
+  "modid": "ghostly",
+  "authors": [
+    "king"
+  ],
+  "side": "Universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true,
+  "dependencies": {
+    "wingworks": "1.1.4",
+    "playermodellib": "1.16.0"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "ghost": {
+    "Enabled": true,
+    "BaseShapeCode": "playermodellib:seraph",
+    "Group": "ghostly",
+    "Icon": "ghostly:icons/undead",
+    "GroupIcon": "ghostly:icons/ghost",
+    "ShapePath": "ghostly:ghostshape",
+    "ModelSizeFactor": 1.1,
+	"StepHeight": 1.5,
+    "ExtraTraits": [
+      "ghost-cantfeel",
+      "ghost-spiritualbody",
+      "ghost-skinlikearmor",
+      "ghost-cantswim"
+    ],
+       "AvailableClasses": ["ghost-wanderingspirit","ghost-angryspirit","ghost-noble","ghost-glottony","ghost-ancient","ghost-poltergeist","ghost-underground"],
+    "SkipClasses": [],
+    "SizeRange": [
+      0.9,
+      1.1
+    ],
+    "MaxCollisionBox": [
+      0.75,
+      1.9
+    ],
+    "MinCollisionBox": [
+      0.1,
+      0.1
+    ],
+    "ScaleColliderWithSizeHorizontally": true,
+    "ScaleColliderWithSizeVertically": true,
+    "MaxEyeHeight": 1.95,
+    "MinEyeHeight": 0.1,
+    "MainTextureCode": "seraph",
+    "RemoveTags": [ "seraph" ],
+    "AddTags": [ "spirit" ],
+    "SkinnableParts": [
+      {
+        "code": "ghostly-gem",
+        "type": "texture",
+        "textureTarget": "crystal-body",
+        "targetSkinParts": [
+          "base"
+        ],
+        "overlayTexture": true,
+        "useDropDown": true,
+        "textureTemplate": "ghostly:crystal/{code}",
+        "variants": [
+          {
+            "code": "blue"
+          },
+          {
+            "code": "red"
+          },
+          {
+            "code": "green"
+          },
+          {
+            "code": "white"
+          },
+          {
+            "code": "purple"
+          },
+          {
+            "code": "yellow"
+          },
+          {
+            "code": "orange"
+          },
+          {
+            "code": "black"
+          },
+          {
+            "code": "lightred"
+          },
+          {
+            "code": "darkred"
+          },
+          {
+            "code": "darkblue"
+          },
+          {
+            "code": "lightblue"
+          },
+          {
+            "code": "lightyellow"
+          },
+          {
+            "code": "darkyellow"
+          },
+          {
+            "code": "darkgreen"
+          },
+          {
+            "code": "lightgreen"
+          }
+        ]
+      },
+      {
+        "code": "voicetype",
+        "type": "voice",
+        "useDropDown": true,
+        "variants": [
+          {
+            "code": "ghost-wineglass",
+            "sound": "ghostly:sounds/voice/wineglass"
+          },
+          {
+            "code": "ghost-glockenspiel",
+            "sound": "ghostly:sounds/voice/glockenspiel"
+          },
+          {
+            "code": "ghost-bottle",
+            "sound": "ghostly:sounds/voice/bottle"
+          }
+        ]
+      },
+      {
+        "code": "voicepitch",
+        "type": "voice",
+        "useDropDown": true,
+        "variants": [
+          {
+            "code": "verylow"
+          },
+          {
+            "code": "low"
+          },
+          {
+            "code": "medium"
+          },
+          {
+            "code": "high"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+[
+	{
+		"enabled": true,
+		"code": "ghost-wanderingspirit",
+		"traits": ["ghost-wonderer","ghost-ghost-flight","ghost-cannotenjoyfood","ghost-sound"],
+		"gear": [
+			{"type":"item","code":"game:clothes-face-hunter-mask" },
+			{"type": "item","code": "game:clothes-foot-nomad-boots"},
+			{"type": "item","code": "game:clothes-upperbodyover-spice-merchants-coat"},
+			{"type": "item","code": "game:clothes-shoulder-hooded-cape"}
+	]
+	},
+	{
+		"enabled": true,
+		"code": "ghost-angryspirit",
+		"traits": ["ghost-eyes","ghost-sound2","ghost-angry","ghost-skinlikearmor2","ghost-cannotenjoyfood"],
+		"gear": [
+			{"type": "item","code": "game:clothes-upperbody-beggar"},
+			{"type": "item","code": "game:clothes-lowerbody-beggar"},
+			{"type": "item","code": "game:clothes-hand-beggar"},
+			{"type": "item","code": "game:clothes-face-bandageeyes"},
+			{"type": "item","code": "game:clothes-foot-prisoner-binds"},
+			{"type": "item","code":"game:clothes-arm-prisoner-binds" }
+	]
+	},
+	{
+		"enabled": true,
+		"code": "ghost-noble",
+		"traits": ["ghost-sound","ghost-mind","ghost-giftedhands2","ghost-cannotenjoyfood"],
+		"gear": [
+			{"type": "item","code": "game:clothes-neck-pearl-necklace"},
+			{"type": "item","code": "game:clothes-shoulder-aristocrat-mantle"},
+			{"type": "item","code": "game:clothes-head-crown"}
+	]
+	},
+	{
+		"enabled": true,
+		"code": "ghost-glottony",
+		"traits": ["ghost-sound2","ghost-wonderer2","ghost-giftedhands3","ghost-hungry"],
+		"gear": [
+			{"type": "item","code":"game:clothes-shoulder-malefactor-cloak" },
+			{"type": "item","code":"game:clothes-foot-malefactor-boots" },
+			{"type": "item","code":"game:clothes-neck-malefactor-pendant" },
+			{"type": "item","code":"game:clothes-upperbodyover-clockmaker-tunic" }
+	]
+	},
+	{
+		"enabled": true,
+		"code": "ghost-ancient",
+		"traits": ["ghost-eyes","ghost-mind","ghost-sound","ghost-ghost-flight","ghost-giftedhands","improviser","tinkerer", "technical", "clothier"],
+		"gear": [
+			{"type": "item","code":"game:clothes-face-forgotten" },
+			{"type": "item","code":"game:clothes-neck-forgotten" },
+			{"type": "item","code":"game:clothes-upperbodyover-forgotten" },
+			{"type": "item","code":"game:clothes-lowerbody-forgotten" },
+			{"type": "item","code":"game:clothes-hand-forgotten" },
+			{"type": "item","code":"game:clothes-foot-forgotten" }
+	]
+	},
+	{
+		"enabled": true,
+		"code": "ghost-poltergeist",
+		"traits": ["ghost-eyes","ghost-throw","ghost-sound2","ghost-ghost-flight","ghost-hungry"],
+		"gear": [
+			{"type": "item","code":"game:clothes-head-hunter-cape" },
+			{"type": "item","code":"game:clothes-shoulder-hunter-poncho" },
+			{"type": "item","code":"game:clothes-upperbodyover-hunter-coat" },
+			{"type": "item","code":"game:clothes-face-hunter-mask" },
+			{"type": "item","code":"game:clothes-hand-hunter-gloves" }
+	]
+	},
+	{
+		"enabled": true,
+		"code": "ghost-underground",
+		"traits": ["ghost-eyes","ghost-cannotenjoyfood","ghost-sound","ghost-wonderer","ghost-mine"],
+		"gear": [
+			{"type": "item","code":"game:clothes-arm-prisoner-binds" },
+			{"type": "item","code":"game:clothes-upperbodyover-miner" },
+			{"type": "item","code":"game:clothes-lowerbody-miner" },
+			{"type": "item","code":"game:clothes-face-blindfold" },
+			{"type": "item","code":"game:clothes-foot-rotwalker" },
+			{"type": "item","code":"game:clothes-shoulder-rotwalker" }
+	]
+	}
+]

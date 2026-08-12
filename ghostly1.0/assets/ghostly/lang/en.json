@@ -1,0 +1,174 @@
+{
+  "game:playermodelgroup-ghostly": "ghosts",
+  "playermodel-ghost": "ghost",
+
+//the name of class
+  "game:characterclass-ghost-underground": "sleeping spirit",
+  "game:characterclass-ghost-poltergeist": "venimous spirit",
+  "game:characterclass-ghost-ancient": "old spirit",
+  "game:characterclass-ghost-wanderingspirit": "wandering spirit",
+  "game:characterclass-ghost-noble": "longing spirit",
+  "game:characterclass-ghost-glottony": "hunger bound spirit",
+  "game:characterclass-ghost-angryspirit": "hateful spirit",
+
+// the description of class
+  "game:characterdesc-ghost-angryspirit": "<font color=\"#99c9f9\"><i>why breath hate? why is hate in every action? why is resent in every word you say? why must you hate the very thing you came from spirit of wrath?</i></font>",
+  "game:characterdesc-ghost-glottony": "<font color=\"#99c9f9\"><i>can you really be full with the hole within your form? can a spirit without flesh really be feed? why fuel a leaking soul? though you may try to feed that void i can only see that you are suffering spirit of gluttony... i just hope you see it.</i></font>",
+  "game:characterdesc-ghost-noble": "<font color=\"#99c9f9\"><i>dead yet still holds onto a golden crown of lies.. why are you still here in the living? to take more from the living for your tomb? i shall watch you spirit of greed</i></font>",
+  "game:characterdesc-ghost-wanderingspirit": "<font color=\"#99c9f9\"><i>oh wondering spirit, why must you follow the wind? why do you linger within the world embrace? to you who is in search for someone that has long faded, to wander for so long...i pity you spirit of lust</i></font>",
+  "game:characterdesc-ghost-ancient": "<font color=\"#99c9f9\"><i>its been a long time spirit... why must you still linger? is it resent? a longing? is it pride? i suppose you dont remember anyways spirit of pride....</i></font>",
+  "game:characterdesc-ghost-poltergeist": "<font color=\"#99c9f9\"><i>oh spirit, why must you inflict your will onto the world? why breath resent for the living when you are already dead?... i loath you spirit of envy for taking my eyes</i></font>",
+  "game:characterdesc-ghost-underground": "<font color=\"#99c9f9\"><i>why come out old spirit?, the one who slept within the abbyss of the earths maw... why have the will to impose your will onto the world one again?...i grow worry spirit of slought</i></font>",
+  
+//the race description
+  "modeldesc-ghost": "<font color=\"#99c9f9\"><i>you are dead.... yet you refused to die how strange.....",
+
+//voice
+  "game:skinpart-voicetype-ghost-wineglass": "Wine Glass",
+  "game:skinpart-voicetype-ghost-glockenspiel": "Glockenspiel",
+  "game:skinpart-voicetype-ghost-bottle": "Glass Bottle",
+
+// skins
+  "game:skinpart-ghostly-gem": "spiritual form",
+  "game:skinpart-ghostly-gem-blue": "blue",
+  "game:skinpart-ghostly-gem-red": "red",
+  "game:skinpart-ghostly-gem-green": "green",
+  "game:skinpart-ghostly-gem-white": "white",
+  "game:skinpart-ghostly-gem-purple": "purple",
+  "game:skinpart-ghostly-gem-yellow": "yellow",
+  "game:skinpart-ghostly-gem-black": "black",
+  "game:skinpart-ghostly-gem-orange": "orange",
+  "game:skinpart-ghostly-gem-lightred": "lightred",
+  "game:skinpart-ghostly-gem-darkred": "darkred",
+  "game:skinpart-ghostly-gem-darkblue": "darkblue",
+  "game:skinpart-ghostly-gem-lightblue": "lightblue",
+  "game:skinpart-ghostly-gem-lightyellow": "lightyellow",
+  "game:skinpart-ghostly-gem-darkyellow": "darkyellow",
+  "game:skinpart-ghostly-gem-darkgreen": "darkgreen",
+  "game:skinpart-ghostly-gem-lightgreen": "lightgreen",
+
+//#ff8484 = red
+//#eeee84 = yellow
+//#84ff84 = green
+//traits
+  "game:trait-ghost-cannotenjoyfood": "<font color=\"#84ff84\">• why eat when you have no body.</font> ",
+  "game:trait-ghost-ghost-flight": "<font color=\"#84ff84\">• ghostly flight.</font> ",
+  "game:trait-ghost-mind": "<font color=\"#84ff84\">• a mind that cant give up.</font> ",
+  "game:trait-ghost-eyes": "<font color=\"#84ff84\">• do you see in the dark spirit?</font> ",
+  "game:trait-ghost-cantfeel": "<font color=\"#84ff84\">• do you feel something?.</font> ",
+  "game:trait-ghost-spiritualbody": "<font color=\"#84ff84\">• a body with no fresh?.</font> ",
+  "game:trait-ghost-sound": "<font color=\"#84ff84\">• did you hear something?.</font> ",
+  "game:trait-ghost-sound2": "<font color=\"#ff8484\">• the aura of death is quite disgusting...</font> ",
+  "game:trait-ghost-wonderer": "<font color=\"#eeee84\">• wandering for who?.</font> ",
+  "game:trait-ghost-wonderer2": "<font color=\"#eeee84\">• how long will you fill the void?.</font> ",
+  "game:trait-ghost-throw": "<font color=\"#84ff84\">• have you became a poltergeist?.</font> ",
+  "game:trait-ghost-mine": "<font color=\"#84ff84\">• you being that came from the dark should stay within the dark...</font> ",
+  "game:trait-ghost-angry": "<font color=\"#eeee84\">• why the hate?.</font> ",
+  "game:trait-ghost-giftedhands": "<font color=\"#84ff84\">•what knowledge do you have spirit?.</font> ",
+  "game:trait-ghost-giftedhands2": "<font color=\"#eeee84\">• why does a spirit need more?.</font> ",
+  "game:trait-ghost-giftedhands3": "<font color=\"#eeee84\">• how are your senses so strong spirit?.</font> ",
+  "game:trait-ghost-hungry": "<font color=\"#ff8484\">• why are you so hungry?.</font> ",
+  "game:trait-ghost-skinlikearmor": "<font color=\"#84ff84\">• can a ghost be hurt?.</font> ",
+  "game:trait-ghost-skinlikearmor2": "<font color=\"#84ff84\">• can your hate truly fuel you for this long?.</font> ",
+  "game:trait-ghost-cantswim": "<font color=\"#eeee84\">• you wish for flesh to float.</font> ",
+
+  //light&darkattributes
+  "game:charattribute-lightWalkSpeed": "{0:P0} walk speed in the light",
+  "game:charattribute-lightDamageFactor": "{0:P0} damage in the light",
+  "game:charattribute-lightHealingFactor": "{0:P0} healing in the light",
+  "game:charattribute-darknessWalkSpeed": "{0:P0} walk speed in the dark",
+  "game:charattribute-darknessDamageFactor": "{0:P0} damage in the dark",
+  "game:charattribute-darknessHealingFactor": "{0:P0} healing in the dark",
+
+  //gravity
+  "game:charattribute-fallDamageThreshold-0.75": "Higher fall damage threshold",
+  "game:charattribute-gravityDamageFactor--0.5": "-50% gravity damage received",
+  "game:charattribute-jumpHeightMul-0.5": "+50% jump height",
+
+//speed
+  "game:charattribute-sneakSpeed-0.3": "+30% sneak speed",
+  "game:charattribute-sprintSpeed-0.5": "+50% sprint speed",
+  "game:charattribute-sprintSpeed": "{0:P0} sprint speed",
+  "game:charattribute-sneakSpeed": "{0:P0} sneak speed",
+  "game:charattribute-armorWalkSpeedAffectedness--0.25": "25% less armor movement penalty",
+  "game:charattribute-armorWalkSpeedAffectedness": "{0:P0} armor movement penalty",
+
+//stability
+  "game:charattribute-temporalStabilityOffset--0.00025": "Constantly loses temporal stability",
+  "game:charattribute-temporalStabilityDropRate--0.7": "70% slower environmental stability loss",
+  "game:charattribute-temporalStabilityOffset": "{0} temporal stability per second",
+  "game:charattribute-temporalStabilityDropRate": "{0:P0} temporal stability loss",
+  "game:charattribute-temporalStabilityCaveDropRate": "{0:P0} cave temporal stability loss",
+
+//damagebyenvironment
+  "game:charattribute-poisonDamageFactor--10": "you cant feel the rot",
+  "game:charattribute-frostDamageFactor--0.95": "you cant feel the cold",
+  "game:charattribute-fireDamageFactor--0.95": "you cant feel the heat",
+
+//swiming
+  "game:charattribute-canSwim--1": "Cannot swim",
+  "game:charattribute-buoyancyFactor--1": "Sinks instead of floating",
+  "game:charattribute-breathType-1": "Does not need to breathe",
+
+//food
+  "game:charattribute-hungerrate": "{0:P0} hunger rate",
+  "game:charattribute-nutritionFactor": "{0:P0} nutrition gained",
+  "game:charattribute-maxSaturationFactor": "{0:P0} max nutrition",
+  "game:charattribute-saturationLossFactor": "{0:P0} saturation loss",
+  "game:charattribute-nutritionFactor--0.6": "Gains 60% less nutrition from food",
+
+//DropRate
+  "game:charattribute-rustyGearDropRate": "{0:P0} gear DropRate",
+  "game:charattribute-wholeVesselLootChance": "{0:P0} chance to get a vessel from a cracked one",
+  "game:charattribute-vesselContentsDropRate": "{0:P0} loot DropRate",
+  "game:charattribute-forageDropRate": "{0:P0} forage DropRate",
+  "game:charattribute-wildCropDropRate": "{0:P0} crop DropRate",
+  "game:charattribute-animalLootDropRate": "{0:P0} animal DropRate",
+  "game:charattribute-oreLootDropMul": "{0:P0} muli ore droprate",
+  "game:charattribute-oreDropRate": "{0:P0} ore droprate",
+
+//harvesttime
+  "game:charattribute-animalHarvestingTime": "{0:P0} animal Harvesting Time",
+
+  //wingworks
+  "game:charattribute-ww_can_fly-1": "Can Fly",
+  "game:charattribute-ww_flap_hunger-10": "hunger used to fly faster",
+  "game:charattribute-ww_flight_hunger": "{0} hunger used to fly",
+  "game:charattribute-ww_stall_speed": "Will fall when gliding too slowly",
+  "game:charattribute-ww_stall_speed-1": " Will fall when gliding too slowly",
+  "game:charattribute-ww_start_speed": "Must be moving to start gliding",
+  "game:charattribute-ww_start_speed-5": "Must be moving at least 5m/s to start gliding",
+  "game:charattribute-ww_start_speed-4.5": "Must be moving at least 4.5m/s to start gliding",
+  "game:charattribute-ww_flap_forward_acceleration-0.44444": "Gains speed by flapping wings at the cost of hunger",
+  "game:charattribute-ww_flap_forward_acceleration-0.5": "Gains speed by flapping wings at the cost of hunger at a slightly higher efficiency",
+  "game:charattribute-ww_flap_forward_acceleration": "Gains speed by flapping wings at the cost of hunger",
+  "game:charattribute-ww_flap_vertical_acceleration": "Gains height by flapping wings",
+  "game:charattribute-ww_flap_vertical_acceleration-5": "Gains height by flapping wings",
+  "game:charattribute-ww_climb_coefficient": "Slightly more efficient at ascending",
+  "game:charattribute-ww_climb_coefficient-0.18": "Slightly more efficient at ascending",
+  "game:charattribute-ww_climb_coefficient-0.16": "More efficient at ascending",
+  "game:charattribute-ww_top_speed-50": "50m/s top speed",
+  "game:charattribute-ww_top_speed-80": "80m/s top speed",
+  "game:charattribute-canGlide-1": "Can glide",
+
+//ranged
+  "game:charattribute-rangedWeaponsSpeed": "{0:P0} ranged speed",
+  "game:charattribute-rangedWeaponsDamage": "{0:P0} ranged damage",
+  "game:charattribute-rangedWeaponsAcc": "{0:P0} ranged accuracy",
+  "game:charattribute-bowDrawingStrength": "{0:P0} bow strength",
+
+//melee
+  "game:charattribute-meleeWeaponsDamage": "{0:P0} melee damage",
+
+//mining
+  "game:charattribute-miningSpeedMul": "{0:P0} mining speed",
+
+  "game:charattribute-animalSeekingRange": "{0:P0} chance to be heard by the living",
+
+//survival
+  "game:charattribute-dv-maxBrightness" : "See in the dark",
+  "game:charattribute-maxhealthExtraPoints--6": "-6 health points",
+  "game:charattribute-damageReceivedFactor--0.2": "20% less damage received",
+  "game:charattribute-maxhealthExtraPoints": "{0} health points",
+  "game:charattribute-damageReceivedFactor": "{0:P0} all damage received"
+}
