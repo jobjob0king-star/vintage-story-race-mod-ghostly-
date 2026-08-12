@@ -1,8 +1,15 @@
+//the classes are placed here 
 [
 	{
 		"enabled": true,
+		
+//code for the class
 		"code": "ghost-wanderingspirit",
+		
+//traits
 		"traits": ["ghost-wonderer","ghost-ghost-flight","ghost-cannotenjoyfood","ghost-sound"],
+		
+//equipment on choosing the class
 		"gear": [
 			{"type":"item","code":"game:clothes-face-hunter-mask" },
 			{"type": "item","code": "game:clothes-foot-nomad-boots"},
