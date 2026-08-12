@@ -2,10 +2,10 @@ my first mod for the game vintage story
 
 it is a race mod used for reference to make more race mods designed to be as simple as possible 
 
-requires; 
-          playermodellib ver 1.16.0 minimum 
-          wingworks ver 1.1.4 minimum
-          vintage story ver 1.22 minimum 
+requires:  
+ playermodellib ver 1.16.0 minimum 
+ wingworks ver 1.1.4 minimum
+ vintage story ver 1.22 minimum 
           
           
 license/copyright: 
